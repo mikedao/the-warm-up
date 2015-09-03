@@ -153,7 +153,157 @@ class Seed
         * Can you write a solution in Ruby?
         * What about JavaScript?
         * What about Processing?
-        "}
+        "},
+
+       {text: "Watch [Barewords](https://www.youtube.com/watch?v=7SSc1mQ4-Ck) by Avdi Grimm.
+
+        * Is this an approach you would use in your code?
+        * What are some of the advantages of this approach?
+        * What are some potential problems that arise from this approach?"},
+
+       {text: "Take a look at the text for [The Cat in the Hat](https://gist.github.com/stevekinney/d60c17fdcfb258f6d416).
+
+        * Can you parse it to figure out how many times each word appears in the story?
+          * Which word appears the most?
+            * How many words are there in total?
+            * Did you consider capitalization?
+            * What about punctuation?
+            * What about spacing?
+            * Can you solve in JavaScript? Go? C? Assembly?"},
+
+      {text: "*n*! means *n* × (*n* − 1) × ... × 3 × 2 × 1
+
+       For example, 10! = 10 × 9 × ... × 3 × 2 × 1 = 3628800,
+       and the sum of the digits in the number 10! is 3 + 6 + 2 + 8 + 8 + 0 + 0 = 27.
+
+       Find the sum of the digits in the number 100!
+
+       (This is actually one of those cases where a functional language like Clojure or JavaScript can be useful. See if you can solve it in a functional language.)
+       "},
+
+      {text: "Tackle this [Code Kata](http://codekata.com/kata/kata06-anagrams/)"},
+
+      {text: "**Write a program that prints the next 20 leap years.**
+
+       A leap year occurs under the following condition:
+
+       * The year is evenly divisible by 4
+       * If the year can be evenly divided by 100, it is *not* a leap year.
+       * If the year can be evenly divided by 400, it is a leap year."},
+
+      {text: "Write a program that automatically converts English text to Morse code and vice versa."},
+
+      {text: "Can you implement `flatten` without using, uhm, `Array#flatten`? It should be able to handle nested arrays infinitely deep.
+
+       * If you did it without monkey patching `Array`, can you do it with monkey patching? (And vice versa, of course.)
+       * Can you do it in JavaScript?"},
+
+      {text: "Using [names.txt](https://projecteuler.net/project/resources/p022_names.txt) (right click and 'Save Link/Target As...'), a 46K text file containing over five-thousand first names, begin by sorting it into alphabetical order. Then working out the alphabetical value for each name, multiply this value by its alphabetical position in the list to obtain a name score.
+
+       For example, when the list is sorted into alphabetical order, COLIN, which is worth 3 + 15 + 12 + 9 + 14 = 53, is the 938th name in the list. So, COLIN would obtain a score of 938 × 53 = 49714.
+
+       What is the total of all the name scores in the file?"},
+
+      {text: "So, Ruby (and some other languages—apparently, there are other languages) have a data structure called `Set`.
+
+       A set is like an Array, but it holds unique objects.
+
+       If you had a set `[1, 2, 3]` and you tried to push in `3`, you'd still have the same set.
+
+       Can you implement this With tests? What about `shift` and `unshift`? `pop`?"},
+
+       {text: "ISO 8601 standard for dates tells us the proper way to do an extended day is `yyyy-mm-dd`.
+
+        Write a method or function that can take any of the dates in [this gist][gist] and correctly format them to the ISO standard. You'll encounter dates in the following formats:
+
+        * `yyyy-mm-dd`
+        * `mm/dd/yy`
+        * `mm#yy#dd`
+        * `dd*mm*yyyy`
+
+        [gist]: https://gist.github.com/stevekinney/2ea630be90f4c837847c"},
+
+       {text: "It's time to do this [logic puzzle](http://cl.ly/2m3p33091u1A)"},
+
+       {text: "Write a program that converts a number to a string, the contents of which depends on the number's prime factors.
+
+        - If the number contains 3 as a prime factor, output 'Pling'.
+        - If the number contains 5 as a prime factor, output 'Plang'.
+        - If the number contains 7 as a prime factor, output 'Plong'.
+        - If the number does not contain 3, 5, or 7 as a prime factor,
+          just pass the number's digits straight through.
+
+          #### Examples
+          #- 28's prime-factorization is 2, 2, 7.
+          #  - In raindrop-speak, this would be a simple \"Plong\".
+          #  - 1755 prime-factorization is 3, 3, 3, 5, 13.
+          #    - In raindrop-speak, this would be a \"PlingPlang\".
+          #    - The prime factors of 34 are 2 and 17.
+          #      - Raindrop-speak doesn't know what to make of that,
+          #          so it just goes with the straightforward \"34\"."},
+       {text: "There are four bungalows in a row. They are made from the following materials: straw, wood, brick and glass.
+
+        Daisha's bungalow is somewhere to the left of the wooden one and the third one along is brick.
+
+        Rachel owns a straw bungalow and Horace does not live at either end, but lives somewhere to the right of the glass bungalow.
+
+        Jorge lives in the fourth bungalow, whilst the first bungalow is not made from straw.
+
+        What order are the bungalows in and who lives in each bungalow?"},
+
+       {text: "Time to warm up. Can you solve [this problem from Project Euler](https://projecteuler.net/problem=10)?"},
+
+       {text: "I had the other day in my possession a label bearing the number 3 0 2 5 in large figures. This got accidentally torn in half, so that 3 0 was on one piece and 2 5 on the other. On looking at these pieces I began to make a calculation, when I discovered this little peculiarity. If we add the 3 0 and the 2 5 together and square the sum we get as the result, the complete original number on the label! Thus, 30 added to 25 is 55, and 55 multiplied by 55 is 3025. Curious, is it not?
+
+        Now, the challenge is to find two or more other numbers, composed of four figures, all different, which may be divided in the middle and produce the same result."},
+
+       {text: "Let's do this [Logic Problem](http://cl.ly/2K1Y082i350U)"},
+
+       {text: "Find words in a word list that contain all the vowels in alphabetical order, non-repeated, where vowels are defined as A E I O U Y. Use this [word list](https://gist.github.com/stevekinney/c0b7cd61d6c1ecd727ca)."},
+
+       {text: "Today's date is January 12, 2015. If we formatted the date as `YYYYMMDD`, it would be 20150112.
+
+        If we added up all of the digits in the data, we'd get 12.
+
+        1. What if we added together all of the days in 2015? What value would we get?
+        2. What if we only added together all of the Fridays in 2015?
+        3. What's the highest value day of the week?
+
+        Tests or it didn't happen."},
+
+       {text: "Get together with your posse and [solve this logic problem](http://cl.ly/0X353Q2X2H0f)"},
+
+       {text: "Meet with your posse to solve [the blue and brown eyes](https://xkcd.com/blue_eyes.html) puzzle."},
+
+       {text: "With your posse, start working on the [Blue Hawaii](http://www.puzzlenode.com/puzzles/7-blue-hawaii) puzzle."},
+
+       {text: "Scientists have developed an allergy test that produces a single numeric score that summarizes information about all the allergies a person has.
+
+        The test checks for the following allergies and assigns them the corresponding value:
+
+        * eggs (1)
+        * peanuts (2)
+        * shellfish (4)
+        * strawberries (8)
+        * tomatoes (16)
+        * chocolate (32)
+        * pollen (64)
+        * cats (128)
+
+        If Jorge is allergic to peanuts and chocolate, he gets a score of 34.
+
+        You're job is to write a program that takes the number and translates it back the allergens that the patient is allergic to.
+
+        In this case, 34 would translate back into a report saying that Jorge was allergic to peanuts and chocolate.
+
+        Because you all love TDD, here are some cases that you can test against:
+
+        * A score of two would mean that the patient is allergic to just peanuts.
+        * A score of 3 would mean that the patient is allergic to eggs and peanuts."},
+
+       {text: "Time for a [logic problem](https://dl.dropboxusercontent.com/u/505445/lsat_blog_-_preptest_50.pdf)"}
+
+
 
     ])
   end
