@@ -1,3 +1,18 @@
 // Place all the styles related to the Problems controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+html, body {
+  background-image: url('http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/8/21/1408618840671/18839f21-608b-4acd-a2aa-a944db3e15e7-2060x1236.jpeg');
+  background-size: cover;
+}
+
+.problem-box {
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 2px solid white;
+  margin: 6em;
+}
+
+.problem {
+  color: white;
+}
