@@ -58,7 +58,7 @@ class Seed
         can you handle variations like \"purple\" (high blue + red)?"},
 
        {text: "build a solution for
-        the problem of merging three sorted collection.
+        the problem of merging three sorted collection.    <<<< Repeat of Ex. on line 53 ?
 
         IE, imagine we have three sets:
 
