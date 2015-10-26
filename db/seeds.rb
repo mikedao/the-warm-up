@@ -27,7 +27,7 @@ class Seed
 
        {text: "Write a program that:
 
-       * Generates the first 100 numbers in the [Fibonacci sequence](http://en.wikipedia.org/wiki/Fibonacci_number)
+       * Generates the first 25 numbers in the [Fibonacci sequence](http://en.wikipedia.org/wiki/Fibonacci_number)
        * Prints them out one-by-one as it generates them
        * Outputs whether they are or are not prime numbers"},
 
