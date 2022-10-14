@@ -1,24 +1,4 @@
-# README
+# The Warm Up
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Application designed to give students a warm up problem to solve eachday. Algorithm attempts to make sure that over the course of seven
+months, that there will not be any duplicates.
